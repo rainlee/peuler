@@ -26,10 +26,10 @@
 #include <cmath>
 using namespace std;
 
-// É¸Êý·¨
-// ËØÊýµÄ±¶Êý±ØÈ»ÊÇ¸öºÏÊý
-// ½¨Ò»¸öÈ«ÁãµÄÊý×éprime[n]
-// prime[i]Îª0ËµÃ÷ÊÇÖÊÊý£¬´Ói¿ªÊ¼¼ÇÂ¼k*iµÄ×î´óÖÊÒòÊýi
+// ç­›æ•°æ³•
+// ç´ æ•°çš„å€æ•°å¿…ç„¶æ˜¯ä¸ªåˆæ•°
+// å»ºä¸€ä¸ªå…¨é›¶çš„æ•°ç»„prime[n]
+// prime[i]ä¸º0è¯´æ˜Žæ˜¯è´¨æ•°ï¼Œä»Žiå¼€å§‹è®°å½•k*içš„æœ€å¤§è´¨å› æ•°i
 long long largestPrimeFactor(long long n)
 {
     vector<long long> prime(n+1, 0);
@@ -40,8 +40,8 @@ long long largestPrimeFactor(long long n)
     return prime[n];
 }
 
-// ·¨1ÖÐvector¿ª²»ÁËÕâÃ´´óµÄ¿Õ¼ä¡­¡­
-// ·¨2£º´Ó[sqrt(n),2]£¬ÏÈÅÐ¶ÏÊÇ·ñÊÇnµÄÒòËØ£¬È»ºóÅÐ¶ÏÊÇ·ñÊÇÖÊÊý
+// æ³•1ä¸­vectorå¼€ä¸äº†è¿™ä¹ˆå¤§çš„ç©ºé—´â€¦â€¦
+// æ³•2ï¼šä»Ž[sqrt(n),2]ï¼Œå…ˆåˆ¤æ–­æ˜¯å¦æ˜¯nçš„å› ç´ ï¼Œç„¶åŽåˆ¤æ–­æ˜¯å¦æ˜¯è´¨æ•°
 bool isPrime(long long n)
 {
     long long sqrtn = sqrt(n);
