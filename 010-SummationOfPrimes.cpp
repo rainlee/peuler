@@ -25,7 +25,7 @@
 #include <vector>
 using namespace std;
 
-// É¸Êı·¨ÇónÒÔÄÚµÄËùÓĞËØÊı
+// ç­›æ•°æ³•æ±‚nä»¥å†…çš„æ‰€æœ‰ç´ æ•°
 long long sumPrimes(int n)
 {
     vector<bool> primes(n+1, true);
