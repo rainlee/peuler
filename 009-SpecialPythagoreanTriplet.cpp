@@ -24,7 +24,7 @@
 #include <iostream>
 using namespace std;
 
-// ±¿·½·¨£ºa b¶¼´Ó1-n³¢ÊÔ¡­¡­
+// Â±Â¿Â·Â½Â·Â¨Â£Âºa bÂ¶Â¼Â´Ã“1-nÂ³Â¢ÃŠÃ”Â¡Â­Â¡Â­
 int specialPyTri(int n)
 {
     for (int a = 1; a <= n; ++a)
