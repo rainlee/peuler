@@ -48,8 +48,8 @@ const string s = "\
 71636269561882670428252483600823257530420752963450\
 ";
 
-// ±éÀúÒ»±éÃ¿´ÎÈ¡k¸öÊý£¬Ê±¼ä¸´ÔÓ¶ÈO(n*k)
-// ×¢ÒâÓÃlong long
+// éåŽ†ä¸€éæ¯æ¬¡å–kä¸ªæ•°ï¼Œæ—¶é—´å¤æ‚åº¦O(n*k)
+// æ³¨æ„ç”¨long long
 long long largestProductInSeries(const string &s, int k)
 {
     long long maxp = INT_MIN;
@@ -70,9 +70,9 @@ long long largestProductInSeries(const string &s, int k)
     return maxp;
 }
 
-// ·¨2£ºÓÅ»¯
-// 1. µ±ÆäÖÐ³öÏÖ0ÁË£¬¼´¿ÉÍ£Ö¹
-// 2. k¸öÊýµÄ´°¿ÚÏòºóÒÆ¶¯Ê±£¬¿ÉÒÔÈ¥Í·¼ÓÎ²£¬²»ÓÃÔÙ±éÀúk£¨0Öµ²»ºÃ´¦Àí¡­¡­£©
+// æ³•2ï¼šä¼˜åŒ–
+// 1. å½“å…¶ä¸­å‡ºçŽ°0äº†ï¼Œå³å¯åœæ­¢
+// 2. kä¸ªæ•°çš„çª—å£å‘åŽç§»åŠ¨æ—¶ï¼Œå¯ä»¥åŽ»å¤´åŠ å°¾ï¼Œä¸ç”¨å†éåŽ†kï¼ˆ0å€¼ä¸å¥½å¤„ç†â€¦â€¦ï¼‰
 
 int main()
 {
