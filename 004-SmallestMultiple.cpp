@@ -24,9 +24,9 @@
 #include <iostream>
 using namespace std;
 
-// ¼´Çó1-20µÄ×îÐ¡¹«±¶Êý
-// ÒÔÏÂ½â·¨Ö»ÊÊÓÃÓÚ1-20£¬²»ÄÜÀ©Õ¹µ½1-30¡­¡­
-// ÍÆµ¼¿ÉµÃÈç¹û¿ÉÒÔ±»11-20Õû³ý£¬ÄÇÃ´Ò»¶¨¿ÉÒÔ±»1-10Õû³ý£¬ÄÇÃ´¾Í¿ÉÒÔ½«ÊýµÄ·¶Î§ËõÐ¡Ò»°ë¡£
+// å³æ±‚1-20çš„æœ€å°å…¬å€æ•°
+// ä»¥ä¸‹è§£æ³•åªé€‚ç”¨äºŽ1-20ï¼Œä¸èƒ½æ‰©å±•åˆ°1-30â€¦â€¦
+// æŽ¨å¯¼å¯å¾—å¦‚æžœå¯ä»¥è¢«11-20æ•´é™¤ï¼Œé‚£ä¹ˆä¸€å®šå¯ä»¥è¢«1-10æ•´é™¤ï¼Œé‚£ä¹ˆå°±å¯ä»¥å°†æ•°çš„èŒƒå›´ç¼©å°ä¸€åŠã€‚
 bool evenDiv(int n)
 {
     for (int i = 11; i <= 20; ++i)
@@ -36,7 +36,7 @@ bool evenDiv(int n)
 }
 int smallestMultiple()
 {
-    for (int i = 2521; ; ++i)  // [1,10] ×îÐ¡¹«±¶Êý 2520
+    for (int i = 2521; ; ++i)  // [1,10] æœ€å°å…¬å€æ•° 2520
         if (evenDiv(i))
             return i;
 }
